@@ -1,0 +1,44 @@
+[gd_scene load_steps=7 format=3 uid="uid://3wb2lxm0okjo"]
+
+[ext_resource type="Texture2D" uid="uid://bv2g5bomkxj64" path="res://assets/terraria/Item_520.png" id="1_umy8c"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v5tly"]
+atlas = ExtResource("1_umy8c")
+region = Rect2(0, 0, 22, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_od0n5"]
+atlas = ExtResource("1_umy8c")
+region = Rect2(0, 28, 22, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_itgk5"]
+atlas = ExtResource("1_umy8c")
+region = Rect2(0, 56, 22, 28)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hnvru"]
+atlas = ExtResource("1_umy8c")
+region = Rect2(0, 84, 22, 28)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_l41c5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v5tly")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_od0n5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_itgk5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hnvru")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Item_520" type="AnimatedSprite2D"]
+sprite_frames = SubResource("SpriteFrames_l41c5")
+autoplay = "default"
+frame_progress = 0.270455

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ItemMeta" load_steps=2 format=3 uid="uid://dtgxfoj8n0xtk"]
+
+[ext_resource type="Script" path="res://scripts/item_meta_res.gd" id="1_a5j2s"]
+
+[resource]
+script = ExtResource("1_a5j2s")
+id = 2
+name = "Club"
+description = "club"
+max_stack_layers_num = 0

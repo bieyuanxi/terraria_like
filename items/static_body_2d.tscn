@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://bb1eaa1n6w0wj"]
+
+[ext_resource type="Texture2D" uid="uid://diiq7ssg00ptc" path="res://assets/terraria/Item_2.png" id="1_hwoc0"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_oa2cq"]
+
+[node name="StaticBody2D" type="StaticBody2D"]
+constant_linear_velocity = Vector2(0, 100)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_oa2cq")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_hwoc0")

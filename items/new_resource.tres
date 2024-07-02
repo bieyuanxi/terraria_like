@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ItemMetaRes" load_steps=2 format=3 uid="uid://6r4pc6f2f8nr"]
+
+[ext_resource type="Script" path="res://scripts/item_meta_res.gd" id="1_l7rag"]
+
+[resource]
+script = ExtResource("1_l7rag")
+id = 0
+name = ""
+description = ""
+max_stack_layers_num = 0

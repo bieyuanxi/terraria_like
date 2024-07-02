@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://chdxo6yokymdy"]
+
+[ext_resource type="Texture2D" uid="uid://bfihpm8ydymod" path="res://assets/terraria/Item_1.png" id="1_1fms4"]
+
+[node name="Item_1" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_1fms4")

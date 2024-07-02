@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="PickaxeResTemplate" load_steps=6 format=3 uid="uid://b5jgqteqbp6wc"]
+
+[ext_resource type="Script" path="res://scripts/pickaxe_res_template.gd" id="1_hqtd7"]
+[ext_resource type="Script" path="res://scripts/excavator_res.gd" id="1_m810b"]
+[ext_resource type="Script" path="res://scripts/item_meta_res.gd" id="2_asun1"]
+
+[sub_resource type="Resource" id="Resource_0p5ex"]
+script = ExtResource("1_m810b")
+excavation_power = 0.5
+distance = 4
+
+[sub_resource type="Resource" id="Resource_75x6v"]
+script = ExtResource("2_asun1")
+id = 0
+name = ""
+description = ""
+max_stack_layers_num = 9999
+is_consumable = false
+is_material = false
+can_be_placed = false
+speed_factor = 1.0
+
+[resource]
+script = ExtResource("1_hqtd7")
+meta = SubResource("Resource_75x6v")
+excavator = SubResource("Resource_0p5ex")
